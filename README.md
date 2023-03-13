@@ -1,6 +1,4 @@
 # cnpj_data
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
 
 # Sobre o projeto
 
@@ -11,12 +9,12 @@ A aplicação consiste em um programa principal get_company_data.py que ao ser c
 # Tecnologias utilizadas
 ## API
 - ReceitaWS API
-## bibliotecas utilizadas 
+## Bibliotecas utilizadas 
 - requests disponível em:  https://pypi.org/project/requests/
 - reportlab disponível em: https://pypi.org/project/reportlab/
 - unittest disponível em: https://docs.python.org/pt-br/3/library/unittest.html
 
-#Função e arquivos
+## Função e arquivos
 
 -api_cnpj_service.py 
   *Possui apenas uma função def cnpj_consume(cnpj) que recebe cnpj trata erros da API e retorna sua requisição
