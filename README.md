@@ -16,30 +16,22 @@ A aplicação consiste em um programa principal get_company_data.py que ao ser c
 
 ## Função e arquivos
 
--api_cnpj_service.py 
-  *Possui apenas uma função def cnpj_consume(cnpj) que recebe cnpj trata erros da API e retorna sua requisição
+-api_cnpj_service.py Possui apenas uma função def cnpj_consume(cnpj) que recebe cnpj trata erros da API e retorna sua requisição
 
--company.py
-	*Utiliza a função de api_cnpj_service.py para retornar os dados em formato json através do método data_json(self)
+-company.py Utiliza a função de api_cnpj_service.py para retornar os dados em formato json através do método data_json(self)
 
--pdf_maker.py
-	*Possui uma classe responsável por produzir um pdf com os dados da empresa. O construtor da classe recebe os dados em formato json.
--def mm_to_p(self, mm) 
-  *Converte milímetro em pontos da biblioteca reportlab.
--def make_string(self) 
-  *Converte os dados json em uma. string para ser impressa no pdf
--def make_pdf(self) 
-  *Efetivamente cria o pdf e é chamada no arquivo get_company_data.py.
+- pdf_maker.py Possui uma classe responsável por produzir um pdf com os dados da empresa. O construtor da classe recebe os dados em formato json.
+- def mm_to_p(self, mm) Converte milímetro em pontos da biblioteca reportlab.
+- def make_string(self) Converte os dados json em uma. string para ser impressa no pdf
+- def make_pdf(self)  Efetivamente cria o pdf e é chamada no arquivo get_company_data.py.
 
--get_company_data.py
-	*O arquivo principal do programa cria uma company faz um print de seus dados e utiliza pdf_maker para gerar um pdf.
+- get_company_data.py O arquivo principal do programa cria uma company faz um print de seus dados e utiliza pdf_maker para gerar um pdf.
 
--service_tesst.py
-	*Arquivo de teste do arquivo api_cnpj_service.py.
+- service_tesst.py Arquivo de teste do arquivo api_cnpj_service.py.
 
 
 # Como executar o projeto
-primeiramente instalar as bibliotecas necessarias
+Após instalar as bibliotecas necessarias
 
 ```bash
 # clonar repositório
