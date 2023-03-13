@@ -58,5 +58,3 @@ python -m unittest service_test.py
 # Autor
 
 Andrei Antonio Villa
-
-https://github.com/Andreivilla
