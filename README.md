@@ -16,9 +16,10 @@ A aplicação consiste em um programa principal get_company_data.py que ao ser c
 
 ## Função e arquivos
 
--api_cnpj_service.py Possui apenas uma função def cnpj_consume(cnpj) que recebe cnpj trata erros da API e retorna sua requisição
+- api_cnpj_service.py 
+  * Possui apenas uma função def cnpj_consume(cnpj) que recebe cnpj trata erros da API e retorna sua requisição
 
--company.py Utiliza a função de api_cnpj_service.py para retornar os dados em formato json através do método data_json(self)
+- company.py Utiliza a função de api_cnpj_service.py para retornar os dados em formato json através do método data_json(self)
 
 - pdf_maker.py Possui uma classe responsável por produzir um pdf com os dados da empresa. O construtor da classe recebe os dados em formato json.
 - def mm_to_p(self, mm) Converte milímetro em pontos da biblioteca reportlab.
